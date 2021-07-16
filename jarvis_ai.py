@@ -80,7 +80,7 @@ def sendmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login("harishrajaa06112001@gmail.com", "xrls qygc ltte nrih")
+    server.login("harishrajaa06112001@gmail.com", "**** **** **** ****") #here comes your password
     server.sendmail("harishrajaa06112001@gmail.com", to, content)
     server.quit()
 
